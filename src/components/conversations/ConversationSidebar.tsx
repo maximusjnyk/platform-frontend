@@ -33,7 +33,7 @@ export const ConversationSidebar: FC<Props> = ({ conversations }) => {
         <ConversationSidebarHeader>
           <h1>Conversations</h1>
           <div onClick={() => setShowModal(!showModal)}>
-            <TbEdit size={40} />
+            <TbEdit size={40} cursor='pointer'/>
           </div>
         </ConversationSidebarHeader>
         <ConversationSidebarContainer>

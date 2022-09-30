@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import {
   InputContainerProps,
   MessageItemContentProps,
@@ -8,7 +8,7 @@ import {
 export const SIDEBAR_WIDTH = 400;
 
 export const InputField = styled.input`
-  font-family: 'Inter';
+  font-family: 'Inter',sans-serif;
   outline: none;
   border: none;
   background-color: inherit;
@@ -39,7 +39,7 @@ export const Button = styled.button`
   width: 100%;
   outline: none;
   border: none;
-  font-family: 'Inter';
+  font-family: 'Inter',sans-serif;
   font-size: 16px;
   background-color: #2b09ff;
   color: #fff;
@@ -157,7 +157,7 @@ export const ModalContentBodyStyle = styled.div`
 `;
 
 export const TextField = styled.textarea`
-  font-family: 'Inter';
+  font-family: 'Inter',sans-serif;
   outline: none;
   border: none;
   background-color: inherit;
@@ -213,7 +213,7 @@ export const MessageInput = styled.input`
   outline: none;
   border: none;
   color: #454545;
-  font-family: 'Inter';
+  font-family: 'Inter',sans-serif;
   box-sizing: border-box;
   font-size: 18px;
   width: 100%;
